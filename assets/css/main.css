@@ -1720,6 +1720,7 @@ input, select, textarea {
 
 	section.special, article.special {
 		text-align: center;
+		color: #272d2e;
 	}
 
 	header.major {
@@ -1754,11 +1755,13 @@ input, select, textarea {
 
 		header.special h2 {
 			margin-bottom: 0;
+			color: #303536;
 		}
 
 		header.special h2 + p {
 			margin-bottom: 0;
 			padding-top: 1.5em;
+			color: #303536;
 		}
 
 		header.special .icon {
@@ -2168,8 +2171,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: #3f538b;
+			border-color: #3f538b;
 			color: #fff !important;
 		}
 
@@ -2212,7 +2215,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: #254a74;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -2546,7 +2549,7 @@ input, select, textarea {
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			background: rgba(14, 8, 11, 0.5);
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
@@ -2578,6 +2581,7 @@ input, select, textarea {
 				letter-spacing: 0.1em;
 				margin: 0;
 				text-transform: uppercase;
+				color: #ffffff;
 			}
 
 				#banner .inner p a {
