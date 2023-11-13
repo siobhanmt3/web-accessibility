@@ -127,7 +127,13 @@ input, select, textarea {
 	p, ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
 	}
-
+	.title-color{
+		color: #1c2021;
+	}
+	.paragraph-color{
+		text-align: justify;
+		color: #3c4345;
+	}
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
