@@ -94,3 +94,25 @@
 		}
 
 })(jQuery);
+document.addEventListener('DOMContentLoaded', function () {
+	const container = document.querySelector('.carousel-container');
+	let currentIndex = 0;
+
+	function showImage(index) {
+		container.style.transform = `translateX(${-index * 100}%)`;
+	}
+
+	function nextImage() {
+		currentIndex = (currentIndex + 1) % container.children.length;
+		showImage(currentIndex);
+	}
+
+	function prevImage() {
+		currentIndex = (currentIndex - 1 + container.children.length) % container.children.length;
+		showImage(currentIndex);
+	}
+
+	setInterval(nextImage, 3000); // Cambia la imagen cada 3 segundos
+	
+});
+

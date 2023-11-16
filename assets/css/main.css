@@ -3347,3 +3347,23 @@ input, select, textarea {
 			}
 
 	}
+	#carousel {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.carousel-container {
+		display: flex;
+		transition: transform 0.5s ease-in-out;
+	}
+
+	.carousel-item {
+		min-width: 100%;
+		box-sizing: border-box;
+	}
+
+	.carousel-item img {
+		width: 650px; /* Ajusta el ancho según tu necesidad */
+		height: 350px; /* Ajusta la altura según tu necesidad */
+		object-fit: cover; /* Para mantener la relación de aspecto y cortar el exceso */
+	}
