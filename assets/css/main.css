@@ -2166,7 +2166,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: rgba(188, 202, 206, 0.15);
+			background: rgba(235, 236, 237, 0.15);
 			border-color: inherit;
 		}
 
